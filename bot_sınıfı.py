@@ -91,6 +91,14 @@ async def C(ctx):
     await ctx.send("C programlama dili, UNIX işletim sistemini geliştirmek için B dili kullanılarak üretilen bir programlama dilidir.")
 
 @bot.command()
+async def nasılsın(ctx):
+    await ctx.send("İyiyim, sen nasılsın.")
+
+@bot.command()
+async def yardım(ctx):
+    await ctx.send("İşte benim komutlarım: /selam, /katıldı, /emoji(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15), /python, /Java, /C, /nasılsın, /yardım, /iletişim, /komutlar")
+
+@bot.command()
 async def iletişim(ctx):
     await ctx.send("iletişim için kilicahmetkayra1@gmail.com'a mail gönderebilirsiniz.")
 
